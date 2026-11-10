@@ -1,18 +1,10 @@
 [
     {
-        "id": "6fd445efda7aebfc",
+        "id": "68271b941d8c6e9c",
         "type": "tab",
-        "label": "Flow 1",
-        "disabled": true,
-        "info": "",
-        "env": []
-    },
-    {
-        "id": "3507c614365047bf",
-        "type": "tab",
-        "label": "Frontend demo ",
+        "label": "Flow 7",
         "disabled": false,
-        "info": "BẢN SỬA: Một ui-base /tuoi-cay, 5 ui-page và 5 ui-template chuẩn widget:page. Chỉ là giao diện; chưa tích hợp cảm biến, xác thực hoặc dữ liệu thật.",
+        "info": "",
         "env": []
     },
     {
@@ -55,59 +47,6 @@
         }
     },
     {
-        "id": "165b5dbaf68c75b5",
-        "type": "ui-page",
-        "name": "Page 1",
-        "ui": "253e6d2f122b87fc",
-        "path": "/page1",
-        "icon": "home",
-        "layout": "grid",
-        "theme": "3bc266eb9eee3ca7",
-        "breakpoints": [
-            {
-                "name": "Default",
-                "px": 0,
-                "cols": 3
-            },
-            {
-                "name": "Tablet",
-                "px": 576,
-                "cols": 6
-            },
-            {
-                "name": "Small Desktop",
-                "px": 768,
-                "cols": 9
-            },
-            {
-                "name": "Desktop",
-                "px": 1024,
-                "cols": 12
-            }
-        ],
-        "tabs": [],
-        "order": 1,
-        "className": "",
-        "visible": "true",
-        "disabled": "false"
-    },
-    {
-        "id": "ee865185a5ff5894",
-        "type": "ui-group",
-        "name": "Group 1",
-        "page": "165b5dbaf68c75b5",
-        "width": 6,
-        "height": 1,
-        "order": 1,
-        "showTitle": true,
-        "className": "",
-        "visible": true,
-        "disabled": false,
-        "groupType": "default",
-        "keepLoaded": false,
-        "tab": ""
-    },
-    {
         "id": "621d8bc617924400",
         "type": "ui-theme",
         "name": "Irrigation Light Teal",
@@ -127,14 +66,14 @@
         }
     },
     {
-        "id": "15e0e270e21d40c3",
+        "id": "231d40ee86b8ef99",
         "type": "ui-page",
-        "name": "Đăng nhập",
+        "name": "Home",
         "ui": "253e6d2f122b87fc",
-        "path": "/dang-nhap",
-        "icon": "login",
+        "path": "/home",
+        "icon": "home",
         "layout": "grid",
-        "theme": "621d8bc617924400",
+        "theme": "3bc266eb9eee3ca7",
         "breakpoints": [
             {
                 "name": "Default",
@@ -157,20 +96,21 @@
                 "cols": "12"
             }
         ],
-        "order": 6,
+        "tabs": [],
+        "order": 1,
         "className": "",
-        "visible": "true",
-        "disabled": "false"
+        "visible": true,
+        "disabled": false
     },
     {
-        "id": "74b40913fa3845da",
+        "id": "2ea8069f821aa65d",
         "type": "ui-page",
-        "name": "Đăng ký",
+        "name": "Chart",
         "ui": "253e6d2f122b87fc",
-        "path": "/dang-ky",
-        "icon": "account-plus",
+        "path": "/chart",
+        "icon": "home",
         "layout": "grid",
-        "theme": "621d8bc617924400",
+        "theme": "3bc266eb9eee3ca7",
         "breakpoints": [
             {
                 "name": "Default",
@@ -193,56 +133,21 @@
                 "cols": "12"
             }
         ],
-        "order": 5,
-        "className": "",
-        "visible": "true",
-        "disabled": "false"
-    },
-    {
-        "id": "e9a51cf0b4f447f0",
-        "type": "ui-page",
-        "name": "Dashboard",
-        "ui": "253e6d2f122b87fc",
-        "path": "/tong-quan",
-        "icon": "view-dashboard",
-        "layout": "grid",
-        "theme": "621d8bc617924400",
-        "breakpoints": [
-            {
-                "name": "Default",
-                "px": "0",
-                "cols": "3"
-            },
-            {
-                "name": "Tablet",
-                "px": "576",
-                "cols": "6"
-            },
-            {
-                "name": "Small Desktop",
-                "px": "768",
-                "cols": "9"
-            },
-            {
-                "name": "Desktop",
-                "px": "1024",
-                "cols": "12"
-            }
-        ],
+        "tabs": [],
         "order": 2,
         "className": "",
         "visible": "true",
         "disabled": "false"
     },
     {
-        "id": "47ac0e32b0e94d87",
+        "id": "fdf51e404fea0921",
         "type": "ui-page",
-        "name": "Biểu đồ độ ẩm",
+        "name": "Configuration",
         "ui": "253e6d2f122b87fc",
-        "path": "/bieu-do-do-am",
-        "icon": "chart-line",
+        "path": "/configuration ",
+        "icon": "home",
         "layout": "grid",
-        "theme": "621d8bc617924400",
+        "theme": "3bc266eb9eee3ca7",
         "breakpoints": [
             {
                 "name": "Default",
@@ -265,20 +170,21 @@
                 "cols": "12"
             }
         ],
+        "tabs": [],
         "order": 3,
         "className": "",
         "visible": "true",
         "disabled": "false"
     },
     {
-        "id": "4d18f1bff0854e00",
+        "id": "cfe8a702405570d6",
         "type": "ui-page",
-        "name": "Cấu hình",
+        "name": "Sign-in",
         "ui": "253e6d2f122b87fc",
-        "path": "/cau-hinh",
-        "icon": "cog",
+        "path": "/sign-in",
+        "icon": "home",
         "layout": "grid",
-        "theme": "621d8bc617924400",
+        "theme": "3bc266eb9eee3ca7",
         "breakpoints": [
             {
                 "name": "Default",
@@ -301,46 +207,148 @@
                 "cols": "12"
             }
         ],
+        "tabs": [],
         "order": 4,
         "className": "",
-        "visible": "true",
+        "visible": "false",
         "disabled": "false"
     },
     {
-        "id": "ea787c9955146647",
+        "id": "9c80eaad26de392d",
+        "type": "ui-page",
+        "name": "Sign-up",
+        "ui": "253e6d2f122b87fc",
+        "path": "/sign-up",
+        "icon": "home",
+        "layout": "grid",
+        "theme": "3bc266eb9eee3ca7",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "3"
+            },
+            {
+                "name": "Tablet",
+                "px": "576",
+                "cols": "6"
+            },
+            {
+                "name": "Small Desktop",
+                "px": "768",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
+        "tabs": [],
+        "order": 5,
+        "className": "",
+        "visible": "false",
+        "disabled": "false"
+    },
+    {
+        "id": "e2935a01174e093b",
+        "type": "ui-group",
+        "name": "Sensors",
+        "page": "231d40ee86b8ef99",
+        "width": "12",
+        "height": 1,
+        "order": 1,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default",
+        "keepLoaded": false,
+        "tab": ""
+    },
+    {
+        "id": "4f8589fc78764988",
+        "type": "ui-group",
+        "name": "Control",
+        "page": "231d40ee86b8ef99",
+        "width": 6,
+        "height": 1,
+        "order": 2,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default",
+        "keepLoaded": false,
+        "tab": ""
+    },
+    {
+        "id": "e708e7299527ae86",
+        "type": "ui-group",
+        "name": "History ",
+        "page": "2ea8069f821aa65d",
+        "width": "12",
+        "height": 1,
+        "order": 1,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default",
+        "keepLoaded": false,
+        "tab": ""
+    },
+    {
+        "id": "24e0d09791531dad",
+        "type": "ui-group",
+        "name": "Config ",
+        "page": "fdf51e404fea0921",
+        "width": "12",
+        "height": 1,
+        "order": 1,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default",
+        "keepLoaded": false,
+        "tab": ""
+    },
+    {
+        "id": "74f2ba259c2e948b",
         "type": "ui-gauge",
-        "z": "6fd445efda7aebfc",
-        "name": "",
-        "group": "ee865185a5ff5894",
+        "z": "68271b941d8c6e9c",
+        "name": "Soil-Moisture ",
+        "group": "e2935a01174e093b",
         "order": 1,
         "value": "payload",
         "valueType": "msg",
-        "width": 3,
-        "height": 3,
-        "gtype": "gauge-34",
-        "gstyle": "needle",
-        "title": "gauge",
+        "width": "3",
+        "height": "3",
+        "gtype": "gauge-half",
+        "gstyle": "rounded",
+        "title": "Độ ẩm đất ",
         "alwaysShowTitle": false,
         "floatingTitlePosition": "top-left",
-        "units": "units",
+        "units": "%",
         "icon": "",
         "prefix": "",
         "suffix": "",
         "segments": [
             {
-                "from": "0",
+                "from": "100",
                 "color": "#5cd65c",
                 "text": "",
                 "textType": "label"
             },
             {
-                "from": "40",
+                "from": "25",
                 "color": "#ffc800",
                 "text": "",
                 "textType": "label"
             },
             {
-                "from": "70",
+                "from": "0",
                 "color": "#ea5353",
                 "text": "",
                 "textType": "label"
@@ -354,74 +362,169 @@
         "styleRounded": true,
         "styleGlow": false,
         "className": "",
-        "x": 530,
-        "y": 680,
+        "x": 110,
+        "y": 180,
         "wires": [
             []
         ]
     },
     {
-        "id": "f81c761b8e3cfd8d",
-        "type": "inject",
-        "z": "6fd445efda7aebfc",
-        "name": "",
-        "props": [
+        "id": "84607a1a65c6fd4a",
+        "type": "ui-gauge",
+        "z": "68271b941d8c6e9c",
+        "name": "Luminous-intensity",
+        "group": "e2935a01174e093b",
+        "order": 3,
+        "value": "payload",
+        "valueType": "msg",
+        "width": "3",
+        "height": "3",
+        "gtype": "gauge-half",
+        "gstyle": "rounded",
+        "title": "Cường độ sáng ",
+        "alwaysShowTitle": false,
+        "floatingTitlePosition": "top-left",
+        "units": "lux",
+        "icon": "",
+        "prefix": "",
+        "suffix": "",
+        "segments": [
             {
-                "p": "payload"
+                "from": "0",
+                "color": "#5cd65c",
+                "text": "",
+                "textType": "label"
             },
             {
-                "p": "topic",
-                "vt": "str"
+                "from": "500",
+                "color": "#ffc800",
+                "text": "",
+                "textType": "label"
+            },
+            {
+                "from": "1000",
+                "color": "#ea5353",
+                "text": "",
+                "textType": "label"
             }
         ],
-        "repeat": "1",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
+        "min": 0,
+        "max": "1000",
+        "sizeThickness": 16,
+        "sizeGap": 4,
+        "sizeKeyThickness": 8,
+        "styleRounded": true,
+        "styleGlow": false,
+        "className": "",
         "x": 110,
-        "y": 680,
+        "y": 240,
         "wires": [
-            [
-                "9750c4cc0d51b818"
-            ]
+            []
         ]
     },
     {
-        "id": "9750c4cc0d51b818",
-        "type": "function",
-        "z": "6fd445efda7aebfc",
-        "name": "function 1",
-        "func": "let randNum = Math.floor(Math.random() * 100);\nmsg.payload = randNum;\nreturn msg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 300,
-        "y": 680,
-        "wires": [
-            [
-                "ea787c9955146647",
-                "0b1cc54129f33c9d"
-            ]
-        ]
-    },
-    {
-        "id": "0b1cc54129f33c9d",
-        "type": "ui-chart",
-        "z": "6fd445efda7aebfc",
-        "group": "ee865185a5ff5894",
-        "name": "",
-        "label": "chart",
+        "id": "8a9a8b788efb2138",
+        "type": "ui-gauge",
+        "z": "68271b941d8c6e9c",
+        "name": "Temperature ",
+        "group": "e2935a01174e093b",
         "order": 2,
+        "value": "payload",
+        "valueType": "msg",
+        "width": "3",
+        "height": "3",
+        "gtype": "gauge-half",
+        "gstyle": "rounded",
+        "title": "Nhiệt độ không khí ",
+        "alwaysShowTitle": false,
+        "floatingTitlePosition": "top-left",
+        "units": "°C",
+        "icon": "",
+        "prefix": "",
+        "suffix": "",
+        "segments": [
+            {
+                "from": "0",
+                "color": "#0729cf",
+                "text": "",
+                "textType": "label"
+            },
+            {
+                "from": "25",
+                "color": "#ffc800",
+                "text": "",
+                "textType": "label"
+            },
+            {
+                "from": "50",
+                "color": "#ea5353",
+                "text": "",
+                "textType": "label"
+            }
+        ],
+        "min": 0,
+        "max": "50",
+        "sizeThickness": 16,
+        "sizeGap": 4,
+        "sizeKeyThickness": 8,
+        "styleRounded": true,
+        "styleGlow": false,
+        "className": "",
+        "x": 290,
+        "y": 180,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a0b68a9327bab5e2",
+        "type": "ui-button",
+        "z": "68271b941d8c6e9c",
+        "group": "4f8589fc78764988",
+        "name": "Buzzer-button",
+        "label": "Bật còi ",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "emulateClick": false,
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "iconPosition": "left",
+        "payload": "BUZZER_ON ",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "buttonColor": "",
+        "textColor": "",
+        "iconColor": "",
+        "enableClick": true,
+        "enablePointerdown": false,
+        "pointerdownPayload": "",
+        "pointerdownPayloadType": "str",
+        "enablePointerup": false,
+        "pointerupPayload": "",
+        "pointerupPayloadType": "str",
+        "x": 480,
+        "y": 200,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c08c18459524ca48",
+        "type": "ui-chart",
+        "z": "68271b941d8c6e9c",
+        "group": "e708e7299527ae86",
+        "name": "",
+        "label": "Độ ẩm đất theo thời gian",
+        "order": 5,
         "chartType": "line",
         "category": "topic",
         "categoryType": "msg",
-        "xAxisLabel": "",
+        "xAxisLabel": "giờ ",
         "xAxisProperty": "",
         "xAxisPropertyType": "timestamp",
         "xAxisType": "time",
@@ -429,13 +532,13 @@
         "xAxisFormatType": "auto",
         "xmin": "",
         "xmax": "",
-        "yAxisLabel": "",
+        "yAxisLabel": "%",
         "yAxisProperty": "payload",
         "yAxisPropertyType": "msg",
-        "ymin": "",
-        "ymax": "",
+        "ymin": "0",
+        "ymax": "100",
         "bins": 10,
-        "action": "append",
+        "action": "replace",
         "stackSeries": false,
         "pointShape": "circle",
         "pointRadius": 4,
@@ -466,185 +569,376 @@
         "height": 8,
         "className": "",
         "interpolation": "linear",
-        "x": 530,
+        "x": 250,
+        "y": 400,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "6c85f1e8dfe4ad26",
+        "type": "ui-dropdown",
+        "z": "68271b941d8c6e9c",
+        "group": "e708e7299527ae86",
+        "name": "",
+        "label": "",
+        "tooltip": "",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "multiple": false,
+        "chips": false,
+        "clearable": false,
+        "options": [
+            {
+                "label": "24 giờ ",
+                "value": "24h",
+                "type": "str"
+            },
+            {
+                "label": "7 ngày ",
+                "value": "7d ",
+                "type": "str"
+            },
+            {
+                "label": "Tùy chọn ",
+                "value": "custom ",
+                "type": "str"
+            }
+        ],
+        "payload": "",
+        "topic": "topic",
+        "topicType": "msg",
+        "className": "",
+        "typeIsComboBox": true,
+        "msgTrigger": "onChange",
+        "x": 440,
+        "y": 400,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d1894adff52c29a9",
+        "type": "ui-gauge",
+        "z": "68271b941d8c6e9c",
+        "name": "Water-Level",
+        "group": "e2935a01174e093b",
+        "order": 4,
+        "value": "payload",
+        "valueType": "msg",
+        "width": "3",
+        "height": "3",
+        "gtype": "gauge-half",
+        "gstyle": "rounded",
+        "title": "Mực nước bình ",
+        "alwaysShowTitle": false,
+        "floatingTitlePosition": "top-left",
+        "units": "%",
+        "icon": "",
+        "prefix": "",
+        "suffix": "",
+        "segments": [
+            {
+                "from": "0",
+                "color": "#5cd65c",
+                "text": "",
+                "textType": "label"
+            },
+            {
+                "from": "50",
+                "color": "#ffc800",
+                "text": "",
+                "textType": "label"
+            },
+            {
+                "from": "100",
+                "color": "#ea5353",
+                "text": "",
+                "textType": "label"
+            }
+        ],
+        "min": 0,
+        "max": "100",
+        "sizeThickness": 16,
+        "sizeGap": 4,
+        "sizeKeyThickness": 8,
+        "styleRounded": true,
+        "styleGlow": false,
+        "className": "",
+        "x": 310,
+        "y": 240,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "6e7f02472fc0750e",
+        "type": "ui-text-input",
+        "z": "68271b941d8c6e9c",
+        "group": "e708e7299527ae86",
+        "name": "",
+        "label": "Từ ngày ",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "topic": "topic",
+        "topicType": "msg",
+        "mode": "date",
+        "tooltip": "",
+        "delay": 300,
+        "passthru": true,
+        "sendOnDelay": false,
+        "sendOnBlur": true,
+        "sendOnEnter": true,
+        "className": "",
+        "clearable": false,
+        "sendOnClear": false,
+        "icon": "",
+        "iconPosition": "left",
+        "iconInnerPosition": "inside",
+        "x": 300,
+        "y": 480,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "614e4e7d1e4d98bc",
+        "type": "ui-text-input",
+        "z": "68271b941d8c6e9c",
+        "group": "e708e7299527ae86",
+        "name": "",
+        "label": "Đến ngày ",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "topic": "topic",
+        "topicType": "msg",
+        "mode": "date",
+        "tooltip": "",
+        "delay": 300,
+        "passthru": true,
+        "sendOnDelay": false,
+        "sendOnBlur": true,
+        "sendOnEnter": true,
+        "className": "",
+        "clearable": false,
+        "sendOnClear": false,
+        "icon": "",
+        "iconPosition": "left",
+        "iconInnerPosition": "inside",
+        "x": 300,
+        "y": 540,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "0a95be65d13c6721",
+        "type": "ui-button",
+        "z": "68271b941d8c6e9c",
+        "group": "e708e7299527ae86",
+        "name": "",
+        "label": "Xem biểu đồ ",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "emulateClick": false,
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "iconPosition": "left",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "buttonColor": "",
+        "textColor": "",
+        "iconColor": "",
+        "enableClick": true,
+        "enablePointerdown": false,
+        "pointerdownPayload": "",
+        "pointerdownPayloadType": "str",
+        "enablePointerup": false,
+        "pointerupPayload": "",
+        "pointerupPayloadType": "str",
+        "x": 450,
+        "y": 500,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "68dbd440d9122b24",
+        "type": "ui-slider",
+        "z": "68271b941d8c6e9c",
+        "group": "24e0d09791531dad",
+        "name": "",
+        "label": "Thời gian còi kêu (giây) ",
+        "tooltip": "",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "outs": "all",
+        "topic": "topic",
+        "topicType": "msg",
+        "thumbLabel": "true",
+        "showTicks": "always",
+        "min": "1",
+        "max": "30",
+        "step": 1,
+        "className": "",
+        "iconPrepend": "",
+        "iconAppend": "",
+        "color": "",
+        "colorTrack": "",
+        "colorThumb": "",
+        "showTextField": false,
+        "x": 210,
+        "y": 680,
+        "wires": [
+            [
+                "10a56556b3d27653"
+            ]
+        ]
+    },
+    {
+        "id": "4779ea496f5d902a",
+        "type": "ui-slider",
+        "z": "68271b941d8c6e9c",
+        "group": "24e0d09791531dad",
+        "name": "",
+        "label": "Ngưỡng độ ẩm bơm nước (%)",
+        "tooltip": "",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "outs": "all",
+        "topic": "topic",
+        "topicType": "msg",
+        "thumbLabel": "true",
+        "showTicks": "always",
+        "min": 0,
+        "max": "100",
+        "step": 1,
+        "className": "",
+        "iconPrepend": "",
+        "iconAppend": "",
+        "color": "",
+        "colorTrack": "",
+        "colorThumb": "",
+        "showTextField": false,
+        "x": 250,
+        "y": 740,
+        "wires": [
+            [
+                "c47bab037f3e0e04"
+            ]
+        ]
+    },
+    {
+        "id": "10a56556b3d27653",
+        "type": "ui-text-input",
+        "z": "68271b941d8c6e9c",
+        "group": "24e0d09791531dad",
+        "name": "",
+        "label": "text",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "topic": "topic",
+        "topicType": "msg",
+        "mode": "text",
+        "tooltip": "",
+        "delay": 300,
+        "passthru": true,
+        "sendOnDelay": false,
+        "sendOnBlur": true,
+        "sendOnEnter": true,
+        "className": "",
+        "clearable": false,
+        "sendOnClear": false,
+        "icon": "",
+        "iconPosition": "left",
+        "iconInnerPosition": "inside",
+        "x": 430,
+        "y": 680,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c47bab037f3e0e04",
+        "type": "ui-text-input",
+        "z": "68271b941d8c6e9c",
+        "group": "24e0d09791531dad",
+        "name": "",
+        "label": "text",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "topic": "topic",
+        "topicType": "msg",
+        "mode": "text",
+        "tooltip": "",
+        "delay": 300,
+        "passthru": true,
+        "sendOnDelay": false,
+        "sendOnBlur": true,
+        "sendOnEnter": true,
+        "className": "",
+        "clearable": false,
+        "sendOnClear": false,
+        "icon": "",
+        "iconPosition": "left",
+        "iconInnerPosition": "inside",
+        "x": 470,
         "y": 740,
         "wires": [
             []
         ]
     },
     {
-        "id": "9acee029029f466a",
-        "type": "ui-template",
-        "z": "3507c614365047bf",
-        "group": "",
-        "page": "15e0e270e21d40c3",
-        "ui": "",
-        "name": "UI - login",
-        "order": 1,
-        "width": "0",
-        "height": "0",
-        "head": "",
-        "format": "<template>\n<div class=\"ir\">\n<div class=\"card auth\"><div class=\"auth-mark\">🌱</div><h1>Đăng nhập</h1>\n<div class=\"field\"><label>Tên đăng nhập</label><input type=\"text\" v-model.trim=\"username\" placeholder=\"Nhập tên đăng nhập\" autocomplete=\"username\" /></div>\n<div class=\"field\"><label>Mật khẩu</label><input type=\"password\" v-model=\"password\" placeholder=\"Nhập mật khẩu\" autocomplete=\"current-password\" /></div>\n<button class=\"btn\" @click=\"go\">Đăng nhập</button><div class=\"auth-foot\">Chưa có tài khoản? <a href=\"/tuoi-cay/dang-ky\">Đăng ký</a></div>\n\n</div>\n</template>\n<script>\nexport default {\n  data(){return {username:'',password:'',notice:''}},\n  methods:{go(){if(!this.username||!this.password){this.notice='Vui lòng nhập tên đăng nhập và mật khẩu.';return;} window.location.href='/tuoi-cay/tong-quan';}}\n}\n</script>\n<style>\n\n.ir{font-family:Roboto,Arial,sans-serif;color:#16232d;max-width:1450px;margin:0 auto;padding:12px 8px 30px}\n.ir *{box-sizing:border-box}.ir h1{font-size:30px;font-weight:800;margin:4px 0 22px}.ir h2{font-size:20px;font-weight:750;margin:0 0 18px}.ir h3{font-size:17px;font-weight:700;margin:0 0 15px}\n.ir .muted{color:#6b7e8e}.ir .card{background:white;border:1px solid #e2e9ef;box-shadow:0 3px 12px #18364c14;border-radius:14px;padding:23px;min-width:0}\n.ir .btn{appearance:none;border:0;background:#00868e;color:white;font-size:16px;font-weight:700;border-radius:9px;padding:13px 23px;cursor:pointer;text-align:center}.ir .btn:hover{background:#006b75}.ir .btn:focus-visible{outline:3px solid #6acbd0;outline-offset:2px}\n.ir .outline{background:white;border:1px solid #cbd7df;color:#1d4856}.ir .outline.active{background:#00868e;color:white}\n.ir .note{padding:14px 17px;background:#e4f1ff;color:#1a5886;border-radius:9px;font-size:14px;margin-top:18px}\n.ir .headrow{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}\n.ir input[type=text], .ir input[type=password], .ir input[type=number], .ir input[type=date]{font:inherit;display:block;border:1px solid #becdd9;border-radius:9px;background:white;padding:11px 12px;min-width:0;width:100%;color:#172936}\n.ir label{font-weight:650}.ir .field{display:grid;gap:7px;margin:0 0 18px}.ir .auth{max-width:530px;margin:35px auto 10px;padding:35px 38px}.ir .auth h1{text-align:center;margin-top:12px}.ir .auth-mark{text-align:center;font-size:42px}.ir .auth .btn{width:100%}.ir .auth-foot{text-align:center;margin-top:20px}.ir a{color:#00818b;text-decoration:underline}.ir .small{font-size:13px}\n.ir .tiles{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:15px}.ir .dashboard-grid{display:grid;grid-template-columns:minmax(0,3fr) minmax(250px,1fr);gap:16px}.ir .right-stack{display:grid;gap:15px;align-content:start}\n.ir .meter-card{text-align:center;padding:17px 12px}.ir .meter-title{font-weight:700;text-align:left;font-size:16px}.ir .gauge-svg{width:100%;max-width:220px;margin:5px auto 0;display:block}.ir .meter-range{display:flex;justify-content:space-between;color:#6a7886;font-size:12px;margin:0 8px}.ir .status-line{display:flex;justify-content:space-between;align-items:center;margin:15px 0;gap:8px}.ir .pill{border-radius:8px;padding:5px 10px;background:#ecf0f3;font-weight:650;font-size:13px}.ir .pill.ok{background:#d8f2dd;color:#237c37}.ir .pill.blue{background:#d8eeff;color:#24598b}\n.ir .periods{display:flex;gap:8px;flex-wrap:wrap}.ir .periods .btn{font-size:14px;padding:9px 16px}.ir .chartframe{width:100%;display:block;margin-top:22px}.ir .chart-labels{display:flex;justify-content:space-between;margin:0 20px 0 48px;color:#526779;font-size:12px}\n.ir .controlrow{display:grid;grid-template-columns:220px minmax(150px,1fr) 105px;align-items:center;gap:22px;border-bottom:1px solid #edf0f3;padding:25px 0}.ir .controlrow:last-child{border-bottom:0}.ir input[type=range]{width:100%;accent-color:#008b92;cursor:pointer}.ir .savebar{text-align:center;padding-top:22px}\n@media(max-width:1050px){.ir .tiles{grid-template-columns:repeat(2,minmax(0,1fr))}.ir .dashboard-grid{grid-template-columns:1fr}}@media(max-width:620px){.ir .tiles{grid-template-columns:1fr}.ir .auth{padding:24px 16px}.ir .controlrow{grid-template-columns:1fr;gap:8px}.ir h1{font-size:25px}}\n\n</style>\n",
-        "noerr": 0,
-        "storeOutMessages": true,
-        "passthru": true,
-        "resendOnRefresh": true,
-        "templateScope": "widget:page",
+        "id": "27e2a9a3f00bf771",
+        "type": "ui-button",
+        "z": "68271b941d8c6e9c",
+        "group": "24e0d09791531dad",
+        "name": "",
+        "label": "Lưu Cấu hình ",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "emulateClick": false,
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
         "className": "",
-        "x": 430,
-        "y": 100,
+        "icon": "",
+        "iconPosition": "left",
+        "payload": "SAVE_CONFIG ",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "buttonColor": "",
+        "textColor": "",
+        "iconColor": "",
+        "enableClick": true,
+        "enablePointerdown": false,
+        "pointerdownPayload": "",
+        "pointerdownPayloadType": "str",
+        "enablePointerup": false,
+        "pointerupPayload": "",
+        "pointerupPayloadType": "str",
+        "x": 220,
+        "y": 800,
         "wires": [
             []
         ]
-    },
-    {
-        "id": "86addbf25fc64d0d",
-        "type": "ui-template",
-        "z": "3507c614365047bf",
-        "group": "",
-        "page": "74b40913fa3845da",
-        "ui": "",
-        "name": "UI - register",
-        "order": 1,
-        "width": "0",
-        "height": "0",
-        "head": "",
-        "format": "<template>\n<div class=\"ir\">\n<div class=\"card auth\"><div class=\"auth-mark\">👤</div><h1>Đăng ký tài khoản</h1>\n<div class=\"field\"><label>Tên đăng nhập</label><input type=\"text\" v-model.trim=\"username\" placeholder=\"Nhập tên đăng nhập\" autocomplete=\"username\" /></div>\n<div class=\"field\"><label>Mật khẩu</label><input type=\"password\" v-model=\"password\" placeholder=\"Nhập mật khẩu\" autocomplete=\"new-password\" /></div>\n<div class=\"field\"><label>Nhập lại mật khẩu</label><input type=\"password\" v-model=\"confirm\" placeholder=\"Nhập lại mật khẩu\" autocomplete=\"new-password\" /></div>\n<button class=\"btn\" @click=\"register\">Đăng ký</button><div class=\"auth-foot\">Đã có tài khoản? <a href=\"/tuoi-cay/dang-nhap\">Đăng nhập</a></div>\n\n</div>\n</template>\n<script>\nexport default {\n  data(){return {username:'',password:'',confirm:'',notice:''}},\n  methods:{register(){if(!this.username||!this.password||!this.confirm){this.notice='Hãy nhập đủ các trường.';return;}if(this.password!==this.confirm){this.notice='Mật khẩu nhập lại không khớp.';return;}this.notice='Form hợp lệ (demo). Chưa lưu tài khoản vào JSON.';}}\n}\n</script>\n<style>\n\n.ir{font-family:Roboto,Arial,sans-serif;color:#16232d;max-width:1450px;margin:0 auto;padding:12px 8px 30px}\n.ir *{box-sizing:border-box}.ir h1{font-size:30px;font-weight:800;margin:4px 0 22px}.ir h2{font-size:20px;font-weight:750;margin:0 0 18px}.ir h3{font-size:17px;font-weight:700;margin:0 0 15px}\n.ir .muted{color:#6b7e8e}.ir .card{background:white;border:1px solid #e2e9ef;box-shadow:0 3px 12px #18364c14;border-radius:14px;padding:23px;min-width:0}\n.ir .btn{appearance:none;border:0;background:#00868e;color:white;font-size:16px;font-weight:700;border-radius:9px;padding:13px 23px;cursor:pointer;text-align:center}.ir .btn:hover{background:#006b75}.ir .btn:focus-visible{outline:3px solid #6acbd0;outline-offset:2px}\n.ir .outline{background:white;border:1px solid #cbd7df;color:#1d4856}.ir .outline.active{background:#00868e;color:white}\n.ir .note{padding:14px 17px;background:#e4f1ff;color:#1a5886;border-radius:9px;font-size:14px;margin-top:18px}\n.ir .headrow{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}\n.ir input[type=text], .ir input[type=password], .ir input[type=number], .ir input[type=date]{font:inherit;display:block;border:1px solid #becdd9;border-radius:9px;background:white;padding:11px 12px;min-width:0;width:100%;color:#172936}\n.ir label{font-weight:650}.ir .field{display:grid;gap:7px;margin:0 0 18px}.ir .auth{max-width:530px;margin:35px auto 10px;padding:35px 38px}.ir .auth h1{text-align:center;margin-top:12px}.ir .auth-mark{text-align:center;font-size:42px}.ir .auth .btn{width:100%}.ir .auth-foot{text-align:center;margin-top:20px}.ir a{color:#00818b;text-decoration:underline}.ir .small{font-size:13px}\n.ir .tiles{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:15px}.ir .dashboard-grid{display:grid;grid-template-columns:minmax(0,3fr) minmax(250px,1fr);gap:16px}.ir .right-stack{display:grid;gap:15px;align-content:start}\n.ir .meter-card{text-align:center;padding:17px 12px}.ir .meter-title{font-weight:700;text-align:left;font-size:16px}.ir .gauge-svg{width:100%;max-width:220px;margin:5px auto 0;display:block}.ir .meter-range{display:flex;justify-content:space-between;color:#6a7886;font-size:12px;margin:0 8px}.ir .status-line{display:flex;justify-content:space-between;align-items:center;margin:15px 0;gap:8px}.ir .pill{border-radius:8px;padding:5px 10px;background:#ecf0f3;font-weight:650;font-size:13px}.ir .pill.ok{background:#d8f2dd;color:#237c37}.ir .pill.blue{background:#d8eeff;color:#24598b}\n.ir .periods{display:flex;gap:8px;flex-wrap:wrap}.ir .periods .btn{font-size:14px;padding:9px 16px}.ir .chartframe{width:100%;display:block;margin-top:22px}.ir .chart-labels{display:flex;justify-content:space-between;margin:0 20px 0 48px;color:#526779;font-size:12px}\n.ir .controlrow{display:grid;grid-template-columns:220px minmax(150px,1fr) 105px;align-items:center;gap:22px;border-bottom:1px solid #edf0f3;padding:25px 0}.ir .controlrow:last-child{border-bottom:0}.ir input[type=range]{width:100%;accent-color:#008b92;cursor:pointer}.ir .savebar{text-align:center;padding-top:22px}\n@media(max-width:1050px){.ir .tiles{grid-template-columns:repeat(2,minmax(0,1fr))}.ir .dashboard-grid{grid-template-columns:1fr}}@media(max-width:620px){.ir .tiles{grid-template-columns:1fr}.ir .auth{padding:24px 16px}.ir .controlrow{grid-template-columns:1fr;gap:8px}.ir h1{font-size:25px}}\n\n</style>\n",
-        "noerr": 0,
-        "storeOutMessages": true,
-        "passthru": true,
-        "resendOnRefresh": true,
-        "templateScope": "widget:page",
-        "className": "",
-        "x": 430,
-        "y": 190,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "f74001b18dab4782",
-        "type": "ui-template",
-        "z": "3507c614365047bf",
-        "group": "",
-        "page": "e9a51cf0b4f447f0",
-        "ui": "",
-        "name": "UI - dashboard",
-        "order": 1,
-        "width": "0",
-        "height": "0",
-        "head": "",
-        "format": "<template>\n<div class=\"ir\">\n\n<div class=\"dashboard-grid\"><div class=\"tiles\">\n<div v-for=\"m in meters\" :key=\"m.title\" class=\"card meter-card\">\n<div class=\"meter-title\">{{ m.icon }} &nbsp;{{ m.title }}</div>\n<svg class=\"gauge-svg\" viewBox=\"0 0 220 132\" aria-label=\"Đồng hồ cảm biến\">\n<path d=\"M 22 107 A 88 88 0 0 1 198 107\" fill=\"none\" stroke=\"#e5ebef\" stroke-width=\"22\" />\n<path d=\"M 22 107 A 88 88 0 0 1 198 107\" fill=\"none\" :stroke=\"m.color\" stroke-width=\"22\" :stroke-dasharray=\"(m.value / m.max * 276.5) + ' 276.5'\" />\n<text x=\"110\" y=\"104\" text-anchor=\"middle\" font-size=\"30\" font-weight=\"bold\" fill=\"#182935\">{{ m.value }}{{ m.unit }}</text></svg>\n<div class=\"meter-range\"><span>0{{m.unit}}</span><span>{{ m.max }}{{m.unit}}</span></div></div></div>\n\n\n<section class=\"card\"><h3>🔊 &nbsp;Điều khiển</h3><button class=\"btn\" style=\"width:100%\" @click=\"sound\">Bật còi</button><div class=\"note\" v-if=\"notice\">{{notice}}</div></section>\n\n\n</div>\n</template>\n<script>\nexport default {\n  data(){return {meters:[\n    {title:'Độ ẩm đất',icon:'🌱',value:42,max:100,unit:'%',color:'#33b84f'},\n    {title:'Nhiệt độ',icon:'🌡️',value:28,max:50,unit:'°C',color:'#f69b22'},\n    {title:'Cường độ sáng',icon:'☀️',value:650,max:1000,unit:' lx',color:'#ffbd22'},\n    {title:'Mực nước bình chứa',icon:'💧',value:73,max:100,unit:'%',color:'#19a6aa'}\n   ],notice:''}},\n  methods:{sound(){this.notice='Đã nhấn nút Bật còi (demo giao diện, không gửi lệnh tới ESP32).';}}\n}\n</script>\n<style>\n\n.ir{font-family:Roboto,Arial,sans-serif;color:#16232d;max-width:1450px;margin:0 auto;padding:12px 8px 30px}\n.ir *{box-sizing:border-box}.ir h1{font-size:30px;font-weight:800;margin:4px 0 22px}.ir h2{font-size:20px;font-weight:750;margin:0 0 18px}.ir h3{font-size:17px;font-weight:700;margin:0 0 15px}\n.ir .muted{color:#6b7e8e}.ir .card{background:white;border:1px solid #e2e9ef;box-shadow:0 3px 12px #18364c14;border-radius:14px;padding:23px;min-width:0}\n.ir .btn{appearance:none;border:0;background:#00868e;color:white;font-size:16px;font-weight:700;border-radius:9px;padding:13px 23px;cursor:pointer;text-align:center}.ir .btn:hover{background:#006b75}.ir .btn:focus-visible{outline:3px solid #6acbd0;outline-offset:2px}\n.ir .outline{background:white;border:1px solid #cbd7df;color:#1d4856}.ir .outline.active{background:#00868e;color:white}\n.ir .note{padding:14px 17px;background:#e4f1ff;color:#1a5886;border-radius:9px;font-size:14px;margin-top:18px}\n.ir .headrow{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}\n.ir input[type=text], .ir input[type=password], .ir input[type=number], .ir input[type=date]{font:inherit;display:block;border:1px solid #becdd9;border-radius:9px;background:white;padding:11px 12px;min-width:0;width:100%;color:#172936}\n.ir label{font-weight:650}.ir .field{display:grid;gap:7px;margin:0 0 18px}.ir .auth{max-width:530px;margin:35px auto 10px;padding:35px 38px}.ir .auth h1{text-align:center;margin-top:12px}.ir .auth-mark{text-align:center;font-size:42px}.ir .auth .btn{width:100%}.ir .auth-foot{text-align:center;margin-top:20px}.ir a{color:#00818b;text-decoration:underline}.ir .small{font-size:13px}\n.ir .tiles{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:15px}.ir .dashboard-grid{display:grid;grid-template-columns:minmax(0,3fr) minmax(250px,1fr);gap:16px}.ir .right-stack{display:grid;gap:15px;align-content:start}\n.ir .meter-card{text-align:center;padding:17px 12px}.ir .meter-title{font-weight:700;text-align:left;font-size:16px}.ir .gauge-svg{width:100%;max-width:220px;margin:5px auto 0;display:block}.ir .meter-range{display:flex;justify-content:space-between;color:#6a7886;font-size:12px;margin:0 8px}.ir .status-line{display:flex;justify-content:space-between;align-items:center;margin:15px 0;gap:8px}.ir .pill{border-radius:8px;padding:5px 10px;background:#ecf0f3;font-weight:650;font-size:13px}.ir .pill.ok{background:#d8f2dd;color:#237c37}.ir .pill.blue{background:#d8eeff;color:#24598b}\n.ir .periods{display:flex;gap:8px;flex-wrap:wrap}.ir .periods .btn{font-size:14px;padding:9px 16px}.ir .chartframe{width:100%;display:block;margin-top:22px}.ir .chart-labels{display:flex;justify-content:space-between;margin:0 20px 0 48px;color:#526779;font-size:12px}\n.ir .controlrow{display:grid;grid-template-columns:220px minmax(150px,1fr) 105px;align-items:center;gap:22px;border-bottom:1px solid #edf0f3;padding:25px 0}.ir .controlrow:last-child{border-bottom:0}.ir input[type=range]{width:100%;accent-color:#008b92;cursor:pointer}.ir .savebar{text-align:center;padding-top:22px}\n@media(max-width:1050px){.ir .tiles{grid-template-columns:repeat(2,minmax(0,1fr))}.ir .dashboard-grid{grid-template-columns:1fr}}@media(max-width:620px){.ir .tiles{grid-template-columns:1fr}.ir .auth{padding:24px 16px}.ir .controlrow{grid-template-columns:1fr;gap:8px}.ir h1{font-size:25px}}\n\n</style>\n",
-        "noerr": 0,
-        "storeOutMessages": true,
-        "passthru": true,
-        "resendOnRefresh": true,
-        "templateScope": "widget:page",
-        "className": "",
-        "x": 430,
-        "y": 280,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "f0cabb3d4adb4226",
-        "type": "ui-template",
-        "z": "3507c614365047bf",
-        "group": "",
-        "page": "47ac0e32b0e94d87",
-        "ui": "",
-        "name": "UI - history",
-        "order": 1,
-        "width": "0",
-        "height": "0",
-        "head": "",
-        "format": "<template>\n<div class=\"ir\">\n\n<div class=\"card\"><div class=\"headrow\"><h2>🌱 &nbsp;Biểu đồ độ ẩm đất theo thời gian (ThingSpeak)</h2>\n<div class=\"periods\"><button class=\"btn\" :class=\"period==='24h'?'':'outline'\" @click=\"period='24h'\">24 giờ</button><button class=\"btn\" :class=\"period==='7d'?'':'outline'\" @click=\"period='7d'\">7 ngày</button><button class=\"btn\" :class=\"period==='custom'?'':'outline'\" @click=\"period='custom'\">Tùy chọn</button></div></div>\n<div v-if=\"period==='custom'\" style=\"display:flex;gap:12px;align-items:end;flex-wrap:wrap;margin-top:12px\">\n<div class=\"field\" style=\"margin:0\"><label>Từ ngày</label><input type=\"date\" v-model=\"fromDate\" /></div><div class=\"field\" style=\"margin:0\"><label>Đến ngày</label><input type=\"date\" v-model=\"toDate\" /></div></div>\n<svg class=\"chartframe\" viewBox=\"0 0 960 330\" role=\"img\" aria-label=\"Biểu đồ đường độ ẩm đất mô phỏng\">\n<g v-for=\"v in [0,20,40,60,80,100]\" :key=\"v\"><line x1=\"58\" :y1=\"285-v*2.3\" x2=\"934\" :y2=\"285-v*2.3\" stroke=\"#d9e1e8\" stroke-width=\"1\"/><text x=\"44\" :y=\"290-v*2.3\" text-anchor=\"end\" font-size=\"15\" fill=\"#5c6c77\">{{v}}</text></g>\n<path :d=\"areaPath\" fill=\"#18a8af\" fill-opacity=\"0.13\" />\n<polyline :points=\"linePoints\" fill=\"none\" stroke=\"#078c97\" stroke-width=\"4\" stroke-linejoin=\"round\" />\n<circle v-for=\"(d,i) in values\" :key=\"i\" :cx=\"xpos(i)\" :cy=\"ypos(d)\" r=\"4\" fill=\"white\" stroke=\"#078c97\" stroke-width=\"3\" />\n<text x=\"15\" y=\"160\" fill=\"#536575\" font-size=\"15\" transform=\"rotate(-90 15 160)\">Độ ẩm đất (%)</text></svg>\n<div class=\"chart-labels\"><span v-for=\"l in ticks\" :key=\"l\">{{l}}</span></div>\n<div class=\"note\">Khoảng thời gian: <b>{{ periodLabel }}</b> &nbsp;|&nbsp; Giá trị cuối: <b>{{ values[values.length-1] }}%</b></div>\n\n</div>\n</template>\n<script>\nexport default {\n  data(){return {period:'24h',fromDate:'',toDate:'',v24:[65,63,60,57,54,52,49,46,48,73,70,68,65,62,59,57,54,52],v7:[44,49,40,61,70,56,62,58,45,49,54,66,51,57]}},\n  computed:{\n    values(){return this.period==='7d'?this.v7:this.period==='custom'?this.v24.slice(3,15):this.v24},\n    linePoints(){return this.values.map((v,i)=>this.xpos(i)+','+this.ypos(v)).join(' ')},\n    areaPath(){let p=this.linePoints.split(' ');return 'M '+p[0]+' L '+p.slice(1).join(' L ')+' L '+this.xpos(this.values.length-1)+',285 L 58,285 Z'},\n    periodLabel(){return this.period==='24h'?'24 giờ qua':this.period==='7d'?'7 ngày qua':(this.fromDate&&this.toDate?this.fromDate+' – '+this.toDate:'Tùy chọn (demo)')},\n    ticks(){return this.period==='7d'?['7 ngày trước','6 ngày','5 ngày','4 ngày','3 ngày','2 ngày','Hôm nay']:this.period==='custom'?['Bắt đầu','Giữa khoảng','Kết thúc']:['00:00','04:00','08:00','12:00','16:00','20:00','24:00']}\n  },\n  methods:{xpos(i){return 58+(876*i/Math.max(1,this.values.length-1))},ypos(v){return 285-v*2.3}}\n}\n</script>\n<style>\n\n.ir{font-family:Roboto,Arial,sans-serif;color:#16232d;max-width:1450px;margin:0 auto;padding:12px 8px 30px}\n.ir *{box-sizing:border-box}.ir h1{font-size:30px;font-weight:800;margin:4px 0 22px}.ir h2{font-size:20px;font-weight:750;margin:0 0 18px}.ir h3{font-size:17px;font-weight:700;margin:0 0 15px}\n.ir .muted{color:#6b7e8e}.ir .card{background:white;border:1px solid #e2e9ef;box-shadow:0 3px 12px #18364c14;border-radius:14px;padding:23px;min-width:0}\n.ir .btn{appearance:none;border:0;background:#00868e;color:white;font-size:16px;font-weight:700;border-radius:9px;padding:13px 23px;cursor:pointer;text-align:center}.ir .btn:hover{background:#006b75}.ir .btn:focus-visible{outline:3px solid #6acbd0;outline-offset:2px}\n.ir .outline{background:white;border:1px solid #cbd7df;color:#1d4856}.ir .outline.active{background:#00868e;color:white}\n.ir .note{padding:14px 17px;background:#e4f1ff;color:#1a5886;border-radius:9px;font-size:14px;margin-top:18px}\n.ir .headrow{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}\n.ir input[type=text], .ir input[type=password], .ir input[type=number], .ir input[type=date]{font:inherit;display:block;border:1px solid #becdd9;border-radius:9px;background:white;padding:11px 12px;min-width:0;width:100%;color:#172936}\n.ir label{font-weight:650}.ir .field{display:grid;gap:7px;margin:0 0 18px}.ir .auth{max-width:530px;margin:35px auto 10px;padding:35px 38px}.ir .auth h1{text-align:center;margin-top:12px}.ir .auth-mark{text-align:center;font-size:42px}.ir .auth .btn{width:100%}.ir .auth-foot{text-align:center;margin-top:20px}.ir a{color:#00818b;text-decoration:underline}.ir .small{font-size:13px}\n.ir .tiles{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:15px}.ir .dashboard-grid{display:grid;grid-template-columns:minmax(0,3fr) minmax(250px,1fr);gap:16px}.ir .right-stack{display:grid;gap:15px;align-content:start}\n.ir .meter-card{text-align:center;padding:17px 12px}.ir .meter-title{font-weight:700;text-align:left;font-size:16px}.ir .gauge-svg{width:100%;max-width:220px;margin:5px auto 0;display:block}.ir .meter-range{display:flex;justify-content:space-between;color:#6a7886;font-size:12px;margin:0 8px}.ir .status-line{display:flex;justify-content:space-between;align-items:center;margin:15px 0;gap:8px}.ir .pill{border-radius:8px;padding:5px 10px;background:#ecf0f3;font-weight:650;font-size:13px}.ir .pill.ok{background:#d8f2dd;color:#237c37}.ir .pill.blue{background:#d8eeff;color:#24598b}\n.ir .periods{display:flex;gap:8px;flex-wrap:wrap}.ir .periods .btn{font-size:14px;padding:9px 16px}.ir .chartframe{width:100%;display:block;margin-top:22px}.ir .chart-labels{display:flex;justify-content:space-between;margin:0 20px 0 48px;color:#526779;font-size:12px}\n.ir .controlrow{display:grid;grid-template-columns:220px minmax(150px,1fr) 105px;align-items:center;gap:22px;border-bottom:1px solid #edf0f3;padding:25px 0}.ir .controlrow:last-child{border-bottom:0}.ir input[type=range]{width:100%;accent-color:#008b92;cursor:pointer}.ir .savebar{text-align:center;padding-top:22px}\n@media(max-width:1050px){.ir .tiles{grid-template-columns:repeat(2,minmax(0,1fr))}.ir .dashboard-grid{grid-template-columns:1fr}}@media(max-width:620px){.ir .tiles{grid-template-columns:1fr}.ir .auth{padding:24px 16px}.ir .controlrow{grid-template-columns:1fr;gap:8px}.ir h1{font-size:25px}}\n\n</style>\n",
-        "noerr": 0,
-        "storeOutMessages": true,
-        "passthru": true,
-        "resendOnRefresh": true,
-        "templateScope": "widget:page",
-        "className": "",
-        "x": 430,
-        "y": 370,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "773a6747c59f4751",
-        "type": "ui-template",
-        "z": "3507c614365047bf",
-        "group": "",
-        "page": "4d18f1bff0854e00",
-        "ui": "",
-        "name": "UI - settings",
-        "order": 1,
-        "width": "0",
-        "height": "0",
-        "head": "",
-        "format": "<template>\n<div class=\"ir\">\n\n<div class=\"card\"><h2>⚙️ &nbsp;Cấu hình hệ thống</h2>\n<div class=\"controlrow\"><label>🔊 &nbsp; Thời gian còi kêu</label><input type=\"range\" v-model.number=\"buzzerSeconds\" min=\"1\" max=\"60\" step=\"1\" aria-label=\"Thời gian còi\"/><div><input type=\"number\" v-model.number=\"buzzerSeconds\" min=\"1\" max=\"60\" step=\"1\" aria-label=\"Số giây\"/><span class=\"small muted\">giây</span></div></div>\n<div class=\"controlrow\"><label>💧 &nbsp; Ngưỡng độ ẩm để tưới</label><input type=\"range\" v-model.number=\"threshold\" min=\"0\" max=\"100\" step=\"1\" aria-label=\"Ngưỡng tưới\"/><div><input type=\"number\" v-model.number=\"threshold\" min=\"0\" max=\"100\" step=\"1\" aria-label=\"Phần trăm\"/><span class=\"small muted\">%</span></div></div>\n\n<div class=\"savebar\"><button class=\"btn\" @click=\"save\">💾 &nbsp; Lưu cấu hình</button></div>\n\n</div>\n</template>\n<script>\nexport default {\n  data(){return {buzzerSeconds:10,threshold:35,notice:''}},\n  methods:{save(){if(!Number.isFinite(this.buzzerSeconds)||this.buzzerSeconds<1||this.buzzerSeconds>60||!Number.isFinite(this.threshold)||this.threshold<0||this.threshold>100){this.notice='Vui lòng nhập giá trị hợp lệ.';return;}this.notice='Đã kiểm tra cấu hình trên giao diện demo (chưa lưu backend).';}}\n}\n</script>\n<style>\n\n.ir{font-family:Roboto,Arial,sans-serif;color:#16232d;max-width:1450px;margin:0 auto;padding:12px 8px 30px}\n.ir *{box-sizing:border-box}.ir h1{font-size:30px;font-weight:800;margin:4px 0 22px}.ir h2{font-size:20px;font-weight:750;margin:0 0 18px}.ir h3{font-size:17px;font-weight:700;margin:0 0 15px}\n.ir .muted{color:#6b7e8e}.ir .card{background:white;border:1px solid #e2e9ef;box-shadow:0 3px 12px #18364c14;border-radius:14px;padding:23px;min-width:0}\n.ir .btn{appearance:none;border:0;background:#00868e;color:white;font-size:16px;font-weight:700;border-radius:9px;padding:13px 23px;cursor:pointer;text-align:center}.ir .btn:hover{background:#006b75}.ir .btn:focus-visible{outline:3px solid #6acbd0;outline-offset:2px}\n.ir .outline{background:white;border:1px solid #cbd7df;color:#1d4856}.ir .outline.active{background:#00868e;color:white}\n.ir .note{padding:14px 17px;background:#e4f1ff;color:#1a5886;border-radius:9px;font-size:14px;margin-top:18px}\n.ir .headrow{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}\n.ir input[type=text], .ir input[type=password], .ir input[type=number], .ir input[type=date]{font:inherit;display:block;border:1px solid #becdd9;border-radius:9px;background:white;padding:11px 12px;min-width:0;width:100%;color:#172936}\n.ir label{font-weight:650}.ir .field{display:grid;gap:7px;margin:0 0 18px}.ir .auth{max-width:530px;margin:35px auto 10px;padding:35px 38px}.ir .auth h1{text-align:center;margin-top:12px}.ir .auth-mark{text-align:center;font-size:42px}.ir .auth .btn{width:100%}.ir .auth-foot{text-align:center;margin-top:20px}.ir a{color:#00818b;text-decoration:underline}.ir .small{font-size:13px}\n.ir .tiles{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:15px}.ir .dashboard-grid{display:grid;grid-template-columns:minmax(0,3fr) minmax(250px,1fr);gap:16px}.ir .right-stack{display:grid;gap:15px;align-content:start}\n.ir .meter-card{text-align:center;padding:17px 12px}.ir .meter-title{font-weight:700;text-align:left;font-size:16px}.ir .gauge-svg{width:100%;max-width:220px;margin:5px auto 0;display:block}.ir .meter-range{display:flex;justify-content:space-between;color:#6a7886;font-size:12px;margin:0 8px}.ir .status-line{display:flex;justify-content:space-between;align-items:center;margin:15px 0;gap:8px}.ir .pill{border-radius:8px;padding:5px 10px;background:#ecf0f3;font-weight:650;font-size:13px}.ir .pill.ok{background:#d8f2dd;color:#237c37}.ir .pill.blue{background:#d8eeff;color:#24598b}\n.ir .periods{display:flex;gap:8px;flex-wrap:wrap}.ir .periods .btn{font-size:14px;padding:9px 16px}.ir .chartframe{width:100%;display:block;margin-top:22px}.ir .chart-labels{display:flex;justify-content:space-between;margin:0 20px 0 48px;color:#526779;font-size:12px}\n.ir .controlrow{display:grid;grid-template-columns:220px minmax(150px,1fr) 105px;align-items:center;gap:22px;border-bottom:1px solid #edf0f3;padding:25px 0}.ir .controlrow:last-child{border-bottom:0}.ir input[type=range]{width:100%;accent-color:#008b92;cursor:pointer}.ir .savebar{text-align:center;padding-top:22px}\n@media(max-width:1050px){.ir .tiles{grid-template-columns:repeat(2,minmax(0,1fr))}.ir .dashboard-grid{grid-template-columns:1fr}}@media(max-width:620px){.ir .tiles{grid-template-columns:1fr}.ir .auth{padding:24px 16px}.ir .controlrow{grid-template-columns:1fr;gap:8px}.ir h1{font-size:25px}}\n\n</style>\n",
-        "noerr": 0,
-        "storeOutMessages": true,
-        "passthru": true,
-        "resendOnRefresh": true,
-        "templateScope": "widget:page",
-        "className": "",
-        "x": 430,
-        "y": 460,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "9066e942c6cf4104",
-        "type": "comment",
-        "z": "3507c614365047bf",
-        "name": "01. Mẫu đăng nhập",
-        "info": "Chỉnh sửa UI - login trong node ui-template. Mọi dữ liệu đều là mẫu, không có backend.",
-        "x": 180,
-        "y": 100,
-        "wires": []
-    },
-    {
-        "id": "8ae323eced0c405e",
-        "type": "comment",
-        "z": "3507c614365047bf",
-        "name": "02. Mẫu đăng ký",
-        "info": "Chỉnh sửa UI - register trong node ui-template. Mọi dữ liệu đều là mẫu, không có backend.",
-        "x": 180,
-        "y": 190,
-        "wires": []
-    },
-    {
-        "id": "d31c3db70ae048f8",
-        "type": "comment",
-        "z": "3507c614365047bf",
-        "name": "03. Dashboard 4 gauge + trạng thái + buzzer",
-        "info": "Chỉnh sửa UI - dashboard trong node ui-template. Mọi dữ liệu đều là mẫu, không có backend.",
-        "x": 180,
-        "y": 280,
-        "wires": []
-    },
-    {
-        "id": "acc7a6b44d6247b1",
-        "type": "comment",
-        "z": "3507c614365047bf",
-        "name": "04. Biểu đồ riêng + chọn thời gian",
-        "info": "Chỉnh sửa UI - history trong node ui-template. Mọi dữ liệu đều là mẫu, không có backend.",
-        "x": 180,
-        "y": 370,
-        "wires": []
-    },
-    {
-        "id": "ac1517b5f5a9497a",
-        "type": "comment",
-        "z": "3507c614365047bf",
-        "name": "05. Cấu hình còi + ngưỡng tưới",
-        "info": "Chỉnh sửa UI - settings trong node ui-template. Mọi dữ liệu đều là mẫu, không có backend.",
-        "x": 180,
-        "y": 460,
-        "wires": []
     }
 ]
