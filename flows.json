@@ -73,7 +73,7 @@
         "path": "/home",
         "icon": "home",
         "layout": "grid",
-        "theme": "3bc266eb9eee3ca7",
+        "theme": "b3f438a624ad47ee",
         "breakpoints": [
             {
                 "name": "Default",
@@ -99,8 +99,8 @@
         "tabs": [],
         "order": 1,
         "className": "",
-        "visible": true,
-        "disabled": false
+        "visible": "true",
+        "disabled": "false"
     },
     {
         "id": "2ea8069f821aa65d",
@@ -110,7 +110,7 @@
         "path": "/chart",
         "icon": "home",
         "layout": "grid",
-        "theme": "3bc266eb9eee3ca7",
+        "theme": "b3f438a624ad47ee",
         "breakpoints": [
             {
                 "name": "Default",
@@ -147,7 +147,7 @@
         "path": "/configuration ",
         "icon": "home",
         "layout": "grid",
-        "theme": "3bc266eb9eee3ca7",
+        "theme": "b3f438a624ad47ee",
         "breakpoints": [
             {
                 "name": "Default",
@@ -184,7 +184,7 @@
         "path": "/sign-in",
         "icon": "home",
         "layout": "grid",
-        "theme": "3bc266eb9eee3ca7",
+        "theme": "b3f438a624ad47ee",
         "breakpoints": [
             {
                 "name": "Default",
@@ -221,7 +221,7 @@
         "path": "/sign-up",
         "icon": "home",
         "layout": "grid",
-        "theme": "3bc266eb9eee3ca7",
+        "theme": "b3f438a624ad47ee",
         "breakpoints": [
             {
                 "name": "Default",
@@ -313,6 +313,57 @@
         "groupType": "default",
         "keepLoaded": false,
         "tab": ""
+    },
+    {
+        "id": "9d29c23c70fb67a2",
+        "type": "ui-group",
+        "name": "sign-in",
+        "page": "cfe8a702405570d6",
+        "width": 6,
+        "height": 1,
+        "order": 1,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default",
+        "keepLoaded": false,
+        "tab": ""
+    },
+    {
+        "id": "f684228572a7c878",
+        "type": "ui-group",
+        "name": "sign-up ",
+        "page": "9c80eaad26de392d",
+        "width": 6,
+        "height": 1,
+        "order": 1,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default",
+        "keepLoaded": false,
+        "tab": ""
+    },
+    {
+        "id": "b3f438a624ad47ee",
+        "type": "ui-theme",
+        "name": "Smawa",
+        "colors": {
+            "surface": "#008c95",
+            "primary": "#009688",
+            "bgPage": "#f1f5f9",
+            "groupBg": "#ffffff",
+            "groupOutline": "#d8e0e8"
+        },
+        "sizes": {
+            "density": "default",
+            "pagePadding": "12px",
+            "groupGap": "12px",
+            "groupBorderRadius": "4px",
+            "widgetGap": "12px"
+        }
     },
     {
         "id": "74f2ba259c2e948b",
@@ -937,6 +988,180 @@
         "pointerupPayloadType": "str",
         "x": 220,
         "y": 800,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "1ca3b22b622083aa",
+        "type": "ui-form",
+        "z": "68271b941d8c6e9c",
+        "name": "",
+        "group": "9d29c23c70fb67a2",
+        "label": "Đăng nhập ",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "options": [
+            {
+                "label": "Username ",
+                "key": "username ",
+                "type": "text",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Password ",
+                "key": "password",
+                "type": "password",
+                "required": true,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "username ": "",
+            "password": ""
+        },
+        "payload": "",
+        "submit": "Đăng nhập ",
+        "cancel": "",
+        "resetOnSubmit": true,
+        "topic": "topic",
+        "topicType": "msg",
+        "splitLayout": "",
+        "className": "",
+        "passthru": false,
+        "dropdownOptions": [],
+        "x": 230,
+        "y": 960,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "4d274b8286fb0e48",
+        "type": "ui-button",
+        "z": "68271b941d8c6e9c",
+        "group": "9d29c23c70fb67a2",
+        "name": "",
+        "label": "Chưa có account? Đăng ký ",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "emulateClick": false,
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "iconPosition": "left",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "buttonColor": "",
+        "textColor": "",
+        "iconColor": "",
+        "enableClick": true,
+        "enablePointerdown": false,
+        "pointerdownPayload": "",
+        "pointerdownPayloadType": "str",
+        "enablePointerup": false,
+        "pointerupPayload": "",
+        "pointerupPayloadType": "str",
+        "x": 280,
+        "y": 1020,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "1eeccdbaae9f58f8",
+        "type": "ui-form",
+        "z": "68271b941d8c6e9c",
+        "name": "",
+        "group": "f684228572a7c878",
+        "label": "Đăng ký ",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "options": [
+            {
+                "label": "Username ",
+                "key": "username ",
+                "type": "text",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Password ",
+                "key": "password",
+                "type": "password",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Confirm Password ",
+                "key": "confirm_password ",
+                "type": "password",
+                "required": true,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "username ": "",
+            "password": "",
+            "confirm_password ": ""
+        },
+        "payload": "",
+        "submit": "Đăng nhập ",
+        "cancel": "",
+        "resetOnSubmit": true,
+        "topic": "topic",
+        "topicType": "msg",
+        "splitLayout": "",
+        "className": "",
+        "passthru": false,
+        "dropdownOptions": [],
+        "x": 220,
+        "y": 1160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "db1794736a386be7",
+        "type": "ui-button",
+        "z": "68271b941d8c6e9c",
+        "group": "f684228572a7c878",
+        "name": "",
+        "label": "Đã có account? Đăng nhập ",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "emulateClick": false,
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "iconPosition": "left",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "buttonColor": "",
+        "textColor": "",
+        "iconColor": "",
+        "enableClick": true,
+        "enablePointerdown": false,
+        "pointerdownPayload": "",
+        "pointerdownPayloadType": "str",
+        "enablePointerup": false,
+        "pointerupPayload": "",
+        "pointerupPayloadType": "str",
+        "x": 280,
+        "y": 1220,
         "wires": [
             []
         ]
